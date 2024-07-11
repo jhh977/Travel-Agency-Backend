@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: Repository Dispatch
-      uses: jhh977/Travel-Agency-Backend
+      uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.PAT }}
         repository: jhh977/Travel-Agency-Frontend
